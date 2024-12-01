@@ -1,0 +1,45 @@
+<style>
+  /**{
+        background-color: blanchedalmond;
+        color: rgb(60, 15, 114);
+    }*/
+    label {
+        color: blue;
+        margin: 10px;
+    }
+    h2{
+        color: rgb(255, 44, 44);
+    }
+    textarea{
+        color: rgb(255, 0, 0);
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    .button{
+        color: cadetblue;
+        background-color: rgb(30, 210, 210);
+        align-items: center;
+        border-radius: 10px;
+        padding: 10px;
+        margin-top: 10px;
+    }
+    .box{
+        margin: 6px;
+        padding: 10px;
+        border-radius: 5px;
+        color: aquamarine;
+    }
+    .suhas{
+        margin-top: 30px;
+        text-align: center;
+        margin-left: 400px;
+        margin-right: 375px;
+        border: 1px solid black;
+        padding: 20px;
+        background-color: bisque;
+        border-radius: 10px;
+    }
+    .em{
+        border-radius: 4px;
+    }
+</style>

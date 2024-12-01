@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+        }
+        .container{
+            width:50%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        label{
+            text-align: right;
+        }
+        form{
+            display: grid;
+            grid-template-columns: 150px 1fr;
+            gap: 10px;
+            align-items: center;
+        }
+        input,textarea{
+            
+        }
+        .buttons{
+            grid-column: sapn 2;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <h2><center><u>REGISTRATION FORM</u></center></h2>
+    <P><label>First name<input type="text" name="name" /></label></P>
+    <P><label>Last  name<input type="text" name="name" /></label></P>
+    <P><label>Nick name<input type="text" name="name" /></label></P>
+    <P><label>e-mail<input type="email" name="name" /></label></P>
+    <P><label>Password<input type="password" name="name" size="20" maxlength="20" /></label></P>
+    <P><label>Date of Birth<input type="date/month/year" name="name" /></label></P>
+    <P><label>Gender</label>
+    <label><input type="radio" name="gender" value="Male">Male</label>
+    <label><input type="radio" name="gender" value="female">Female</label>
+    <label><input type="radio" name="gender" value="others">Others</label></P>
+    <P><label>Mobile<input type="number" maxlength="10" /></label></P>
+    <label>Address
+        <textarea name="feedback" row="5"></textarea></label>
+     <p><input type="submit" name="submit"/>
+     <input type="reset" name="reset"/>
+     </p>  
+       
+</body>
+</html>
